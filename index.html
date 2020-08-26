@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://egkoppel.github.io/product-sans/google-fonts.css">
     <link rel="stylesheet" href="style.css">
 
-    <script src="app.js" defer></script> <!--body가 끝난 다음 로딩-->
+    <script type="module" src="app.js" defer></script> <!--body가 끝난 다음 로딩-->
 </head>
 <body>
     <header class = "header">
@@ -40,7 +40,7 @@
                     <i class="material-icons-outlined">keyboard</i>
                     <input type="text" placeholder="코드 또는 링크 입력" id="input">
                 </div>
-                <button class='apply_button' id='apply_button' disabled>참여</button>
+                <button class='apply_button' id='apply_button' disabled style="display: none;">참여</button>
             </div>
             <footer>Google Meet에 관해 <a href="">자세히 알아보세요.</a></footer>
         </div>
