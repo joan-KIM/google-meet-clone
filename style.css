@@ -60,7 +60,6 @@ body{
 
 .main_wrap{
     display:flex;
-    padding:4em;
     align-items: center;
     flex:1;
 }
@@ -73,10 +72,12 @@ body{
 
 .contents_container{
     flex:1;
+    margin:4em;
 }
 
 .image_container{
     flex:1;
+    margin:4em;
 }
 
 .image_container img{
@@ -90,4 +91,98 @@ body{
     box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
 }
 
+.contents_container .title{
+    font-size: 2.75rem;
+    font-weight: 400;
+}
+
+.contents_container .description{
+    font-size: 1.125rem;
+    color: #5f6368;
+}
+
+.input_container{
+    display: flex;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.input_box {
+    border:1px solid #dadce0;
+    border-radius:0.2em;
+    margin-left:2em;
+    padding:0.8em;
+}
+
+.input_box:hover{
+    border-color: black;
+}
+
+.input_box:focus-within {
+    border:2px solid #00796b;
+}
+
+.input_box i{
+    margin:0;
+    vertical-align: middle;
+}
+
+.input_box input{
+    border: none;
+    outline: none;
+    font-size: 1.125rem;
+    margin-left:0.4em;
+}
+
+.apply_button{
+    border:none;
+    background-color: white;
+    color:#00796b;
+    font-size: 1.125rem;
+    border-radius: 0.2em;
+    padding:.5em 1em;
+    margin-left:0.4em;
+    outline:none;
+}
+
+.apply_button:enabled:hover{
+    background-color: rgba(0,121,107, 0.05);
+    color:#004d40;
+}
+
+.apply_button:enabled:active{
+    background-color: rgba(0,121,107, 0.3);
+    color:#004d40;
+}
+
+.apply_button:disabled{
+    color:#dadce0;
+}
+
+.button{
+    border:none;
+    background-color: #00796b;
+    border-radius: 0.2em;
+    font-size: 1.125rem;
+    color:white;
+    padding:0.8em;
+}
+
+.button i{
+    color:white;
+    vertical-align: middle;
+    margin:0;
+    margin-right:0.4em;
+}
+
+footer{
+    color: #5f6368;
+    padding-top:2em;
+    border-top:1px solid #dadce0;
+}
+
+footer a{
+    color:#00796b;
+    text-decoration: none;
+}
 
