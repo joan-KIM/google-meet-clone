@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'Product Sans';
+    src:url(/assets/font/ProductSans-Regular_7a2a56c145b5d37f87bcdb656af0ddea.ttf);
+}
+
+.header{
+    display:flex;
+    padding:0.5em;
+}
+
+.logo{
+    margin-right: auto;
+    font-family: 'Product Sans',Arial,sans-serif;
+    color: #5f6368;
+    font-size: 24px;
+    padding-left:0.3em;
+}
+
+.logo img{
+    height: 45px;
+    vertical-align: middle;
+}
+
+.account_icon{
+    background-color: blue;
+    color:white;
+    font-size:24px;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.svg_wrapper{
+    width:24px;
+    margin:0 1.5em;
+}
+
+.account_container{
+    display: flex;
+    margin:0.5em;
+    margin-left:1.5em;
+    align-items: center;
+}
+
+.material-icons-outlined{
+    display: inline-block;
+    margin:0.5em;
+    color:#5f6368;
+}
