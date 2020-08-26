@@ -3,6 +3,13 @@
     src:url(/assets/font/ProductSans-Regular_7a2a56c145b5d37f87bcdb656af0ddea.ttf);
 }
 
+body{
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     display:flex;
     padding:0.5em;
@@ -53,6 +60,9 @@
 
 .main_wrap{
     display:flex;
+    padding:4em;
+    align-items: center;
+    flex:1;
 }
 
 .contents_container{
