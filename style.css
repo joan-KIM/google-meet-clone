@@ -104,3 +104,19 @@ body{
 .input_container{
     display: flex;
 }
+
+.button{
+    border:none;
+    background-color: #00796b;
+    border-radius: 0.2em;
+    font-size: 1.125rem;
+    color:white;
+    padding:0.8em;
+}
+
+.button i{
+    color:white;
+    vertical-align: middle;
+    margin:0;
+    margin-right:0.4em;
+}
