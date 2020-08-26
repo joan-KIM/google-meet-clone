@@ -147,14 +147,16 @@ body{
 
 .apply_button:enabled:hover{
     background-color: rgba(0,121,107, 0.05);
+    color:#004d40;
 }
 
 .apply_button:enabled:active{
-    background-color: rgba(0,121,107, 0.3);;
+    background-color: rgba(0,121,107, 0.3);
+    color:#004d40;
 }
 
 .apply_button:disabled{
-    color:red;
+    color:#dadce0;
 }
 
 .button{
