@@ -134,6 +134,25 @@ body{
     margin-left:0.4em;
 }
 
+.apply_button{
+    border:none;
+    background-color: white;
+    color:#00796b;
+    font-size: 1.125rem;
+    border-radius: 0.2em;
+    padding:.5em 1em;
+    margin-left:0.4em;
+    outline:none;
+}
+
+.apply_button:hover{
+    background-color: rgba(0,121,107, 0.05);
+}
+
+.apply_button:active{
+    background-color: rgba(0,121,107, 0.3);;
+}
+
 .button{
     border:none;
     background-color: #00796b;
@@ -160,3 +179,4 @@ footer a{
     color:#00796b;
     text-decoration: none;
 }
+
