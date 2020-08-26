@@ -50,3 +50,15 @@
     margin:0.5em;
     color:#5f6368;
 }
+
+.main_wrap{
+    display:flex;
+}
+
+.contents_container{
+    flex:1;
+}
+
+.image_container{
+    flex:1;
+}
