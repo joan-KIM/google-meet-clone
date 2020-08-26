@@ -8,23 +8,20 @@
 }
 
 .logo{
-    margin-right:auto;
+    margin-right: auto;
     font-family: 'Product Sans',Arial,sans-serif;
     color: #5f6368;
     font-size: 22px;
-    align-items: center;
-    background-color: yellow;
-    vertical-align: middle;
-    line-height: 40px;
 }
 
 .logo img{
-    border: 1px solid red;
     height: 40px;
+    vertical-align: middle;
 }
 
 .logo span{
-    border: 1px solid blue;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
