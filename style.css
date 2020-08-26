@@ -62,3 +62,7 @@
 .image_container{
     flex:1;
 }
+
+.image_container img{
+    width:100%;
+}
