@@ -103,6 +103,35 @@ body{
 
 .input_container{
     display: flex;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.input_box {
+    border:1px solid #dadce0;
+    border-radius:0.2em;
+    margin-left:2em;
+    padding:0.8em;
+}
+
+.input_box:hover{
+    border-color: black;
+}
+
+.input_box:focus-within {
+    border:2px solid #00796b;
+}
+
+.input_box i{
+    margin:0;
+    vertical-align: middle;
+}
+
+.input_box input{
+    border: none;
+    outline: none;
+    font-size: 1.125rem;
+    margin-left:0.4em;
 }
 
 .button{
