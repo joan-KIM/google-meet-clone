@@ -21,15 +21,29 @@
     vertical-align: middle;
 }
 
+.icon_container{
+    padding:0.5em;
+    background-color: sandybrown;
+}
+
 .account_icon{
     background-color: blue;
     color:white;
     font-size:24px;
-    width:40px;
-    height: 40px;
+    width:35px;
+    height: 35px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
     vertical-align: middle;
 }
 
+.svg_wrapper{
+    width:24px;
+    padding:0.5em 1.5em;
+}
+
+.account_container{
+    display: flex;
+    padding-right:0.3em;
+}
