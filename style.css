@@ -145,12 +145,16 @@ body{
     outline:none;
 }
 
-.apply_button:hover{
+.apply_button:enabled:hover{
     background-color: rgba(0,121,107, 0.05);
 }
 
-.apply_button:active{
+.apply_button:enabled:active{
     background-color: rgba(0,121,107, 0.3);;
+}
+
+.apply_button:disabled{
+    color:red;
 }
 
 .button{
