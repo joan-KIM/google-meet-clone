@@ -105,6 +105,7 @@ body{
     display: flex;
     margin-top: 4em;
     margin-bottom: 2em;
+    position: relative;
 }
 
 .input_box {
@@ -180,6 +181,39 @@ body{
     background-color: #004d40;
     box-shadow:1px 1px 3px rgba(0,121,107,0.3);
 }
+
+.button_list_wrapper{
+    border-radius: .3em;
+    background-color: white;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.2), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);
+    position: absolute;
+    top:0;
+}
+
+.button_list{
+    margin:0;
+    padding:0;
+}
+
+.button_list li{
+    list-style-type:none;
+    padding:1em;
+}
+
+.button_list li:hover{
+    background-color: #f8f9fa;
+}
+
+.button_list li i{
+    vertical-align: middle;
+    margin-right: 1.5em;
+}
+
+.button_list li a{
+    text-decoration: none;
+    color: black;
+}
+
 
 footer{
     color: #5f6368;
