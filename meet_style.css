@@ -7,7 +7,6 @@ body {
 }
 
 .top_bar_wrapper{
-    background-color: greenyellow;
     position:absolute;
     top:0;
     width:100%;
@@ -18,10 +17,39 @@ body {
 .top_bar_container{
     background-color: orangered;
     display: flex;
+    align-items: center;
 }
 
+.tb_users_wrapper{
+    padding:1em 1.5em;
+    background-color: orchid;
+}
+
+.tb_chat_wrapper{
+    padding:1em 2em;
+}
+
+.time{
+    font-size: 20px;
+    margin:0 1em;
+}
 .tb_self_view_container{
     display: flex;
+    height: 100%;
+    align-items: flex-end;
+    background-color: #dadce0;
+}
+
+.tb_self_view_container span{
+    font-size:12px;
+    padding:0.2em;
+}
+
+.account_img{
+    height:32px;
+    border-radius: 1em;
+    margin:.3em 1em;
+    align-self: center;
 }
 
 main{
