@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.top_bar_wrapper{
+    background-color: greenyellow;
+    position:absolute;
+    top:0;
+}
+
+main{
+    background-color: hotpink;
+    flex:1;
+}
+
+.bottom_bar{
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+}
