@@ -5,11 +5,23 @@ body {
     position: relative;
     display: flex;
 }
+
 .top_bar_wrapper{
     background-color: greenyellow;
     position:absolute;
     top:0;
-    
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_bar_container{
+    background-color: orangered;
+    display: flex;
+}
+
+.tb_self_view_container{
+    display: flex;
 }
 
 main{
