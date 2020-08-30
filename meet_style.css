@@ -9,10 +9,11 @@ body {
     background-color: greenyellow;
     position:absolute;
     top:0;
+    
 }
 
 main{
-    background-color: hotpink;
+    /* background-color: hotpink; */
     flex:1;
 }
 
