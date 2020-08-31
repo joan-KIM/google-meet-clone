@@ -89,13 +89,13 @@ main{
     justify-content: space-between;
 }
 
-.bottom_bar_wrapper i{
+.bottom_bar_wrapper i:not(.call_end_icon){
     color:#5f6368;
     width:24px;
 }
 
 .bb_meeting_details_container{
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     display: flex;
     align-items: center;
     padding:2em;
@@ -113,11 +113,11 @@ main{
 .bb_option_container{
     display: flex;
     align-items: center;
-    background-color: seagreen;
+    /* background-color: seagreen; */
 }
 
 .present_wrapper{
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,9 +127,26 @@ main{
 .present_wrapper span{
     font-size:13px;
     margin:0.3em;
+    color:#5f6368;
 }
 
-.more_icon_wrapper{
-    background-color: salmon;
-    padding:2em 1em;
+.more_icon{
+    padding:1.5em 0.5em;
+}
+
+.bb_call_control_container{
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;
+}
+
+.bb_call_control_container i{
+    border: 1px solid #dadce0;
+    border-radius: 50%;
+    padding:0.7em;
+    margin:0.4em;
+}
+
+.call_end_icon{
+    color:#c5221f;
 }
