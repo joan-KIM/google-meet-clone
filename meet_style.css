@@ -1,0 +1,87 @@
+body {
+    margin:0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.top_bar_wrapper{
+    position:absolute;
+    top:0;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_bar_container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 0.5em;
+}
+
+.tb_users_wrapper, .tb_chat_wrapper{
+    padding:0em 1.6em;
+    margin:0.8em 0;
+    border-right:1px solid #f1f3f4;
+    color:#5f6368;
+}
+
+.chat_icon, .users_icon{
+    fill:#5f6368;
+}
+
+.users_icon{
+    vertical-align: top;
+}
+
+.time{
+    font-size: 20px;
+    margin:0 1em;
+    color:#5f6368;
+}
+
+.tb_self_view_container{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    background-color: #f8f9fa;
+}
+
+.tb_self_view_container span{
+    font-size:12px;
+    margin:0.4em;
+    color:#5f6368;
+}
+
+.account_img{
+    height:32px;
+    border-radius: 1em;
+    margin:.3em .6em;
+    align-self: center;
+}
+
+.mic_icon_wrapper{
+    background-color: #c5221f;
+    border-radius: 1em;
+    margin:0.2em;
+    display: flex;
+    align-items: center;
+}
+
+.mic_icon{
+    fill:#fff;
+    padding:0.15em;
+}
+
+main{
+    background-color: #111;
+    flex:1;
+}
+
+.bottom_bar{
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+}
