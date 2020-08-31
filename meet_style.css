@@ -88,3 +88,48 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+.bottom_bar_wrapper i{
+    color:#5f6368;
+    width:24px;
+}
+
+.bb_meeting_details_container{
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    padding:2em;
+}
+
+.bb_meeting_details_container span{
+    font-size: 18px;
+    color: #202124;
+}
+
+.bb_meeting_details_container i{
+    margin-left:0.2em;
+}
+
+.bb_option_container{
+    display: flex;
+    align-items: center;
+    background-color: seagreen;
+}
+
+.present_wrapper{
+    background-color: sandybrown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1.5em 4em;
+}
+
+.present_wrapper span{
+    font-size:13px;
+    margin:0.3em;
+}
+
+.more_icon_wrapper{
+    background-color: salmon;
+    padding:2em 1em;
+}
