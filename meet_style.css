@@ -95,7 +95,6 @@ main{
 }
 
 .bb_meeting_details_container{
-    /* background-color: rosybrown; */
     display: flex;
     align-items: center;
     padding:2em;
@@ -113,11 +112,9 @@ main{
 .bb_option_container{
     display: flex;
     align-items: center;
-    /* background-color: seagreen; */
 }
 
 .present_wrapper{
-    /* background-color: sandybrown; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +132,6 @@ main{
 }
 
 .bb_call_control_container{
-    /* background-color: skyblue; */
     display: flex;
     align-items: center;
 }
