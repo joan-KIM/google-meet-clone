@@ -80,8 +80,11 @@ main{
     flex:1;
 }
 
-.bottom_bar{
-    background-color: orange;
+.bottom_bar_wrapper{
+    background-color: #fff;
     position: absolute;
     bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
