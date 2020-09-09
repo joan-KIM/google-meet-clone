@@ -215,3 +215,36 @@ main{
     width:13em;
     color: rgba(38,50,56,0.67);
 }
+
+.details_bt_list_wrapper{
+    position: absolute;
+    bottom:7em;
+    left:1em;
+    background-color: #fff;
+    border-radius:0.5em;
+    color:#5f6368;
+}
+
+.detail_list_tab{
+    display: flex;
+}
+
+.detail_list_tab .material-icons-outlined{
+    vertical-align: middle;
+    margin-right:0.5em;
+}
+
+.detail_list_tab div{
+    width:50%;
+    text-align: center;
+    padding:1em 3em;
+}
+
+.detail_list_tab div:hover{
+    color:#00796b;
+}
+
+.detail_list_content{
+    border-top:1px solid rgba(0,0,0,0.12);
+    padding:4em 8em;
+}
