@@ -112,6 +112,7 @@ main{
 .bb_option_container{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .present_wrapper{
@@ -143,6 +144,22 @@ main{
     margin:0.4em;
 }
 
+.bb_call_control_container i:hover{
+    box-shadow:0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149)
+}
+
+.bb_meeting_details_container:hover, .present_wrapper:hover, .more_icon_wrapper:hover{
+    background-color: #f8f9fa;
+}
+
 .call_end_icon{
     color:#c5221f;
 }
+
+.option_list_container{
+    position: absolute;
+    bottom:7em;
+    right:1em;
+    background-color: #fff;
+}
+
